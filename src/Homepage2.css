@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+
+.homepage{
+    margin-top: -130px;
+    background-color: #fafafa;;
+}
+.homepage-container{
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 1430px;
+    /* background-color: lightpink; */
+    height: 100%;
+    display: flex;
+}
+.item-container{
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-end;
+    align-content: flex-start;
+    width: 100%;
+}
+.homepage-left{
+    flex: none;
+    /* align-self: stretch; */
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 85%;
+    width: 34%;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+    /* border: 1px solid; */
+}
+.text-container{
+    margin: 0;
+    padding: 120px 0 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 -100px 0 0;
+    padding: 90px 0 80px;
+    line-height: 2;
+    perspective: 800px;
+    /* border: 2px solid red; */
+    width: 90%;
+}
+.button-div{
+    padding-top: 120px;
+    font-weight: 600;
+}
+.text-child{
+    font-weight: 100;
+    color: #8d8f9a;
+    font-size: 45px;
+    white-space: pre-line;
+    /* height: 191vh; */
+    line-height: -25px;
+    position: relative;
+    margin-top: 1px;
+}
+.text-container>h2{
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 22px;
+    overflow: visible;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+.text-container>p{
+    font-size: 66px;
+    /* font-family: "IBM Plex Serif",Big Caslon,serif; */
+    font-size: 51px;
+    font-weight: 300;
+    /* letter-spacing: -.03em; */
+    line-height: 0.07143;
+}
+.homepage-right{
+    /* flex: none;
+    height: 50%;
+    /* align-self: stretch; */
+    /* padding-left: 15px;
+    padding-right: 15px;
+    width: 38%;
+    align-self: center;
+    position: static;
+    border: 1px solid; */
+    background-image: url("https://images.prismic.io/ueno-www/fa980adb-f824-42d6-aae0-6df1d38aa6fc_espn-poster.jpg?auto=compress,format");
+    transform: translate(0px, 0px);
+    display: block;
+    height: 71%;
+    width: 51%;
+    background-size: cover;
+    right: 7%;
+
+    top: 111px;
+    position: absolute;
+   
+    background-size: cover;
+    z-index: 9;
+}
+.round-div{
+    height: 127%;
+    position: absolute;
+    top: -88px;
+    width: 165%;
+    border-radius: 50%;
+    margin-left: 22%;
+    /* margin-top: -5rem; */
+    background-color: rgb(121, 212, 227);
+    overflow: hidden;
+}
+.round-div-container{
+    height: 100%;
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    right: -171px;
+    width: 43%;
+    /* border-radius: 50%; */
+    margin-left: 13%;
+    /* margin-top: -5rem; */
+    /* background-color: #FECACA; */
+    overflow: hidden;
+    position: relative;
+}
+.homepage-left>p{
+    font-family: 'Montserrat', sans-serif;
+}
+.intro-container{
+    padding: 122px 0 85px;
+    background-color: #fafafa;
+}
+.intro-spacing{
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 1430px;
+    display: flex;
+    justify-content: center;
+}
+.intro-text{
+    max-width: 50%;
+    margin-bottom: 90px;
+    width: 100%;
+}
+.intro-text>h2{
+    font-size: 37px;
+    font-family: "IBM Plex Serif",Big Caslon,serif;
+    font-weight: 200;
+    letter-spacing: -.025em;
+    line-height: 1.11538;
+    color: #000;
+    /* position: relative; */
+    z-index: 2;
+    margin-bottom: 67px;
+    line-height: 1.1875;
+    text-align: center;
+    color: #252525b5;;
+}
+.intro-button-div{
+    float: right;
+}
+.intro-button-div>p{
+    float: right;
+    font-family: "National 2", sans-serif;
+}
+.arrow-icon{
+    font-size: small !important;
+    align-items: center;
+    padding-top: 17px;
+}
+.intro-button-div>Button:hover{
+    padding-left: 20px;
+}
+
+.link-container{
+    padding: 140px 0 0;
+    margin-bottom: 83px;
+}
+.link-spacing{
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 1430px;
+
+}
+.link-text{
+    flex: none;
+    align-self: stretch;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    margin-left: 50%;
+    margin-bottom: 76px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.link-text>h2{
+    margin: 0;
+    text-align: center;
+    color: #252525;
+    font-size: 32px;
+    font-family: "IBM Plex Serif",Big Caslon,serif;
+    font-weight: 100;
+    letter-spacing: -.035em;
+}
+.link-text>h3{
+    margin: 0;
+    text-align: center;
+    color: #252525;
+    font-size: 32px;
+    font-family: "IBM Plex Serif",Big Caslon,serif;
+    font-weight: 200;
+    letter-spacing: -.025em;
+    line-height: 1.11538;
+}
+
+@media (max-width:801px) {
+.round-div-container{
+    display: none;
+}
+.item-container{
+    flex-direction: row;
+    margin-left: 17px;
+}
+.homepage-left{
+    height: 71%;
+    width: 100%;
+}
+.text-container>h2{
+    font-size: 14px;
+}
+.button-div{
+    padding-top: 120px;
+}
+.homepage-right{
+    height: 50%;;
+    width: 100%;
+    position: relative;
+}
+.intro-container{
+    padding: 254px 0 85px;
+}
+.intro-text>h2{
+    font-size: 31px;
+}
+}
+@media (max-width:425px){
+    .homepage-right{
+        display:none;
+        background-image: url("");
+    }
+    .intro-container{
+        padding: 4px 0 85px;
+    }
+    .intro-text{
+        max-width: 100%;
+    }
+    .button-div{
+        padding-top: 30px;
+        font-size: 22px;
+    }
+}
