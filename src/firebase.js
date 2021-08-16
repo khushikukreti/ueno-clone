@@ -1,8 +1,17 @@
+import firebase from 'firebase';
+
 var firebaseConfig = {
-    apiKey: "AIzaSyDSVvbyT059y2HXlGMw4z8P__BQuIS-I0k",
-    authDomain: "ueno-410ba.firebaseapp.com",
-    projectId: "ueno-410ba",
-    storageBucket: "ueno-410ba.appspot.com",
-    messagingSenderId: "41953388741",
-    appId: "1:41953388741:web:b42ce49fd906e6b16f68ac"
+    apiKey: "AIzaSyBy5YdOsAiN4z_pJqqXcPDdQ_PZAj0bv_s",
+    authDomain: "ueno-clone.firebaseapp.com",
+    projectId: "ueno-clone",
+    storageBucket: "ueno-clone.appspot.com",
+    messagingSenderId: "1083148281715",
+    appId: "1:1083148281715:web:3718869556e246ea408706"
   };
+
+  const firebaseApp = firebase.initializeApp(firebaseConfig);
+  const db = firebaseApp.firestore();
+  const auth = firebase.auth();
+  const provider = new firebase.auth.GoogleAuthProvider();
+
+  export { db, auth, provider };
