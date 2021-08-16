@@ -1,0 +1,24 @@
+.loader{
+    height: 100vh;
+    background-color: #fafafa;
+
+}
+.loading-box{
+    margin: auto;
+    margin: righ;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    margin-top: 129px;
+    margin-left: 25vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.text-box{
+    font-size: 47px;
+    color: grey;
+    font-family: cursive;
+}
